@@ -1,0 +1,122 @@
+.liquid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.liquid span {
+  text-align: center;
+  line-height: 550px;
+  color: white;
+  font-size: 40px;
+  display: block;
+}
+
+.fluid01 {
+  width: 50vh;
+  height: 70vh;
+  background-color: rgb(78, 205, 255);
+  animation: liquid01 8s ease infinite;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.fluid02 {
+  width: 50vh;
+  height: 70vh;
+  background-color: rgb(90, 192, 80);
+  animation: liquid02 14s ease infinite;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.fluid03 {
+  width: 50vh;
+  height: 70vh;
+  background-color: rgb(255, 182, 182);
+  animation: liquid03 16s ease infinite;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+@keyframes liquid01 {
+  0%,
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 41% 59% 70%;
+  }
+
+  10% {
+    border-radius: 55% 45% 56% 84% / 25% 95% 75% 75%;
+  }
+
+  35% {
+    border-radius: 55% 45% 80% 80% / 25% 51% 35% 75%;
+  }
+
+  45% {
+    border-radius: 91% 49% 70% 30% / 96% 41% 59% 4%;
+  }
+
+  59% {
+    border-radius: 55% 45% 16% 84% / 25% 95% 5% 75%;
+  }
+
+  78% {
+    border-radius: 55% 45% 16% 84% / 25% 41% 59% 75%;
+  }
+}
+
+@keyframes liquid02 {
+  0%,
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 41% 59% 70%;
+  }
+
+  29% {
+    border-radius: 55% 45% 56% 44% / 25% 45% 35% 35%;
+  }
+
+  37% {
+    border-radius: 55% 45% 80% 80% / 25% 51% 35% 75%;
+  }
+
+  45% {
+    border-radius: 61% 49% 70% 30% / 56% 41% 59% 4%;
+  }
+
+  55% {
+    border-radius: 55% 45% 16% 84% / 25% 65% 5% 75%;
+  }
+
+  71% {
+    border-radius: 55% 45% 16% 84% / 25% 41% 59% 75%;
+  }
+}
+
+@keyframes liquid03 {
+  0%,
+  100% {
+    border-radius: 70% 50% 70% 30% / 30% 41% 59% 70%;
+  }
+
+  29% {
+    border-radius: 55% 45% 56% 84% / 25% 45% 55% 75%;
+  }
+
+  39% {
+    border-radius: 55% 45% 40% 80% / 25% 51% 35% 75%;
+  }
+
+  49% {
+    border-radius: 71% 49% 40% 30% / 56% 41% 59% 4%;
+  }
+
+  59% {
+    border-radius: 55% 45% 66% 84% / 25% 55% 5% 75%;
+  }
+
+  85% {
+    border-radius: 55% 45% 36% 84% / 25% 41% 59% 75%;
+  }
+}
